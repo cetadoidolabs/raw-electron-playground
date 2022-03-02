@@ -1,0 +1,14 @@
+{
+  "name": "raw-electron-playground",
+  "version": "1.0.0",
+  "description": "Project developed to understand electronJS technology",
+  "main": "src/main.js",
+  "author": "Cetadoido Labs",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^17.1.0"
+  }
+}
