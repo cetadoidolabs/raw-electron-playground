@@ -14,7 +14,7 @@ const createWindow = () => {
     }
   })
 
-  win.loadFile('src/index.html')
+  win.loadFile('src/ThemeSwitch/index.html')
 
   ipcMain.handle('dark-mode:toggle', () => {
     if (nativeTheme.shouldUseDarkColors) {
